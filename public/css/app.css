@@ -1,0 +1,76 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 60px;
+}
+
+.logo {
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: 400;
+    color: #ccc;
+    font-size: 3em;
+}
+
+/**
+ * Navigation
+ */
+
+.navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.navigation__item {
+    margin-right: 20px;
+}
+
+.navigation__link {
+    font-weight: 800;
+}
+
+/**
+ * Item
+ */
+
+.item {
+    margin-bottom: 40px;
+}
+
+.item__title {
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.item__service {
+    color: #ccc;
+    font-size: .8em;
+}
+
+/**
+ * Loading
+ */
+
+.loading {
+    font-size: .9em;
+    color: #ccc;
+}
